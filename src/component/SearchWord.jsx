@@ -43,7 +43,7 @@ export default function Searchword (){
                 <input type="text" name="searchbox" value={search} onChange={(e)=>setSearchText(e.target.value)} required />
                 <button type="submit">Search</button>
             </form>
-            <h3>Definition:</h3>{value && search ?<p>{defination}</p>:<>{defination}</>}
+            <h3>Definition:</h3>{value && search ?<p>{defination}</p>:<p>{defination}</p>}
         </div>
     )
 }
