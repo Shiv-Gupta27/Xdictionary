@@ -35,7 +35,7 @@ export default function Searchword() {
           name="searchbox"
           value={search}
           onChange={(e) => setSearchText(e.target.value)}
-          required
+
         />
         <button type="submit">Search</button>
       </form>
